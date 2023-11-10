@@ -65,15 +65,15 @@ The results: Using a bulleted list, describe the accuracy score, the precision s
 A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 *******************************************************-------------------------------------***************************************************
 
-Credit Risk Analysis Report
-An overview of the analysis: 
-o	The purpose of the analysis is to create a model, analyze and predict customers loan risks.
+### Credit Risk Analysis Report
+## An overview of the analysis: 
+# o	The purpose of the analysis is to create a model, analyze and predict customers loan risks.
 
-The results
-o	On the first round of sampled data the scores were 99% with the accuracy rate of 99%, The precision is at 100%. The predictions yielded false negative of 56 which is high and 102 false positives. 
-o	On the resampled data accuracy and precision score stayed the same at 99% and 100% respectively but recall increased to 99%. Overall, generated a better outcome with false negative of 4 and false positive of 116 which is not bad even if it increased. 
+## The results
+# o	On the first round of sampled data the scores were 99% with the accuracy rate of 99%, The precision is at 100%. The predictions yielded false negative of 56 which is high and 102 false positives. 
+# o	On the resampled data accuracy and precision score stayed the same at 99% and 100% respectively but recall increased to 99%. Overall, generated a better outcome with false negative of 4 and false positive of 116 which is not bad even if it increased. 
 
-Summary
+## Summary
  
-The oversampled regression model did a bit better job at predicting in my opinion. With the recall increasing to 99% which means that all of the model predictions are correct even if the precision taking a little bit of hit it is still a better outcome. For the case of loan risks, it is better to predict a lesser false negative. I would recommend this model due to its accuracy in predicting loan risks.
+# The oversampled regression model did a bit better job at predicting in my opinion. With the recall increasing to 99% which means that all of the model predictions are correct even if the precision taking a little bit of hit it is still a better outcome. For the case of loan risks, it is better to predict a lesser false negative. I would recommend this model due to its accuracy in predicting loan risks.
 
